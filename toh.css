@@ -1,0 +1,262 @@
+*{
+    margin:0;
+
+}
+
+body{
+    background-image:url('fst.webp');
+    cursor: pointer;
+    
+}
+
+.textbox{
+    padding:10px;
+    margin-top:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+#title{
+    display:none;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:darkblue;
+}
+#wrapper {
+    box-sizing: content-box;
+    height:30px;
+    width: 26.87em;
+    padding: 2.5em 3em;
+    background-color:darkorchid;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 0.6em;
+    box-shadow: 0 0.9em 2.8em rgba(86, 66, 0, 0.2);
+    
+  }
+
+  #start{
+    font-size: 1.1em;
+    margin:15px 0 0 130px;
+    border-radius:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 0.9em 2.8em rgba(0, 0, 0, 0.651);
+    position:absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 60%;
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+#Box{
+    margin:2vw 20vw 0 20vw;
+    display:none;
+    background-image:url('scd.png');
+    border-radius:10px;
+    width: 60vw;
+    height: 600px;
+    box-shadow: 0 0.9em 2.8em rgba(0, 0, 0, 0.2);
+}
+
+#box2{
+    margin: 10vw 10vw 0 30vw;
+    display:none;
+    background-image:url('scd.png');
+    border-radius:10px;
+    width:500px;
+    height: 200px;
+    box-shadow: 0 0.9em 2.8em rgba(0, 0, 0, 0.2);
+}
+#Form1
+{
+    display:none;
+	left: 450px;
+}
+
+.hide {
+    display: none;
+  }
+
+#disk{
+    margin:0;
+    width:55px;
+    display:flex;
+    flex-direction:row;
+}
+
+.btn{
+    margin:16px;
+}
+
+.abox1{
+    margin:5px 0 0 0;
+    height:10px;
+    width:10px;
+    background-color:orangered;
+}
+.arrow1{
+    width:4px;
+    background-color:darkblue;
+    color:white;
+    border-radius:5px; 
+  
+}
+
+.move{
+    margin-left:16px;
+
+}
+
+#arrow2{
+    width:55px;
+    background-color:darkblue;
+    color:white;
+    border-radius:5px;
+    box-shadow: 0 0.9em 2.8em rgba(0, 0, 0, 0.2);
+    /* width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;*/
+} 
+
+#towers{
+    margin:0 0 0 50px;
+    width:0px;
+}
+#pole11{
+    margin:75px 20px 0 208px;
+    height:150px;
+    width:9px;
+    background-color:black;
+    border-top-right-radius:12rem;
+    border-top-left-radius:12rem;
+}
+
+#pole12{
+    margin:0 0 0 143px;
+    height:9px;
+    width:140px;
+    background-color:black;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+#pole21{
+    margin:-158px 0px 0px 383px;
+    height:150px;
+    width:9px;
+    background-color:black;
+    border-radius:12rem 12rem 0rem 12rem;
+    border-top-right-radius:12rem;
+    border-top-left-radius:12rem;
+}
+
+#pole22{
+    margin:-1px 0 0 320px;
+    height:9px;
+    width:140px;
+    background-color:black;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+#pole31{
+    margin:-158px 0 0 548px;
+    height:150px;
+    width:9px;
+    background-color:black;
+    border-radius:12rem 12rem 0rem 12rem;
+    border-top-right-radius:12rem;
+    border-top-left-radius:12rem;
+}
+
+#pole32{
+    margin:-1px 0 0 490px;
+    height:9px;
+    width:140px;
+    background-color:black;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+#disk1{
+    height:18px;
+    width:30px;
+    display:none;
+    background-color:violet;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+#disk2{
+    height:18px;
+    width:40px;
+    display:none;
+    background-color:indigo;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+#disk3{
+    height:18px;
+    width:50px;
+    display:none;
+    background-color:blue;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+#disk4{
+    height:18px;
+    width:60px;
+    display:none;
+    background-color:green;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+#disk5{
+    height:18px;
+    width:70px;
+    display:none;
+    background-color:yellow;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+#disk6{
+    height:18px;
+    width:80px;
+    display:none;
+    background-color:orange;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+
+#disk7{
+    height:18px;
+    width:90px;
+    display:none;
+    background-color:red;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+
+#disk8{
+    height:18px;
+    width:100px;
+    display:none;
+    background-color:chartreuse;
+    border-radius:12rem 12rem 12rem 12rem;
+}
+
+.pole{
+    display:flex;
+    flex-direction:column-reverse;
+    align-items: center;
+}
+
+#max{
+    text-align: right;
+    margin-right:32px;
+    padding-top:80px;
+}

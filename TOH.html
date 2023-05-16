@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="toh.css">
+    
+    <title>TOWER OF HANOI</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div>
+            <button id="start" onclick="nam()">Start Game</button>
+          </div>
+    </div>
+
+    <div id="Form1">
+        <div><h1 style="background-color:darkslateblue;height:40px;text-align:center;">Tower of Hanoi</h1></div>
+       
+        <div class="textbox" > 
+        <input style="border-radius:5px;width:180px;height:30px;margin-left:180px;" type="text" placeholder="FULL NAME">
+        <input style="border-radius:5px;width:180px;height:30px;margin-right:200px;" type="text" name="email" placeholder="E-mail">
+        </div>
+
+        <div>
+            <button id="start"  style="box-shadow: 0 0.9em 2.8em rgb(255, 231, 231);margin:10vw 0 0 40vw;height:30px;width:200px; background-color:black;color: aliceblue;" onclick="box()">Submit</button>
+        </div>
+
+        <div id="box2">
+            <p><br><strong>Rules:</strong><br>
+                1.Only one disk can be moved at a time.<br><br>
+               2.Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.In other words, a disk can only be moved if it is the uppermost disk on a stack.
+               <br><br>3.No larger disk may be placed on top of a smaller disk.</p>
+        </div>
+
+    </div>
+    </div>
+
+
+    <h1 id="title">Tower of Hanoi</h1>
+    <div id="Box">
+        <div id="disk"><br>
+            <button onclick="tower()" style="margin-top:10px;width:62px;" class="arrow1 btn">Solution</button>
+        <button class="arrow1 btn" id="append" onclick="appenddisk();inc();" style="margin-top:10px;width:62px;">Append disk</button>
+        <br>
+        <button id="arrow2" class="btn" onclick="deletedisk();dec();" style="margin-top:10px;width:62px;">Delete disk</button><br><br>
+        </div>
+
+        <p id="noofdisk" class="move">Disks:2</p><br>
+        <p id="moves" class="move">Moves:0</p>
+
+        <div id="towers">
+        <div id="pole11" class="pole" ondrop="drop(event)" ondragover="allowDrop(event)" >
+            <div id="disk8" class="disk"> </div>
+            <div id="disk7" class="disk"> </div>
+            <div id="disk6" class="disk"> </div>
+            <div id="disk5" class="disk"> </div>
+            <div id="disk4" class="disk"> </div>
+            <div id="disk3" class="disk"> </div>
+            <div id="disk2"  class="disk"> </div>
+            <div id="disk1"  class="disk"> </div>
+            
+
+        </div>
+
+        <div id="pole12" >
+
+        </div>
+
+        <div id="pole21" class="pole" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+
+        <div id="pole22">
+            
+        </div>
+
+        <div id="pole31" class="pole" ondrop="drop(event)" ondragover="allowDrop(event)">
+            
+        </div>
+
+        <div id="pole32">
+            
+        </div>
+        </div>
+        <p id="max">Minimum Moves:3</p>
+    </div>
+
+</body>
+<script src="toh.js"></script>
+</html>

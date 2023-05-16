@@ -2,5 +2,4 @@ Algorithm:
 1.On load page load Enable drop function is called and disk1 gets the draggable and ondrag attributes
     a.ondragstart attribute calls drag event function and datatransfer object stores the id of the element on which the event(dragging) is happening.Data transfer is a inbuilt object.
 2.Allow drop function is called and default settings of division is changed and element is allowed(by the pole division).
-3.Ondrop attribute calls drop event function 
-4. Assess always simp.
+3.Ondrop attribute calls drop event function.
